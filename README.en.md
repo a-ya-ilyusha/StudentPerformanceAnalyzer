@@ -75,7 +75,7 @@ An example file, `example_data.xlsx`, is provided in the repository under the `r
 
 1. Run the application from the command line:
    ```bash
-   java -jar target/StudentPerformanceAnalyzer.jar <path_to_input_file>
+   java -jar target/StudentPerformanceAnalyzer-d.jar <path_to_input_file>
    ```
 
 2. Parameters:
@@ -83,7 +83,7 @@ An example file, `example_data.xlsx`, is provided in the repository under the `r
 
 3. Example:
    ```bash
-   java -jar target/StudentPerformanceAnalyzer.jar resources/input.xlsx
+   java -jar target/StudentPerformanceAnalyzer-d.jar resources/input.xlsx
    ```
 
 4. Outputs:
