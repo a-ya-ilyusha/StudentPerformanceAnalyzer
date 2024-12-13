@@ -76,7 +76,7 @@
 
 1. Запустите приложение из командной строки:
    ```bash
-   java -jar target/StudentPerformanceAnalyzer.jar <path_to_input_file>
+   java -jar target/StudentPerformanceAnalyzer-d.jar <path_to_input_file>
    ```
 
 2. Параметры:
@@ -84,7 +84,7 @@
 
 3. Пример запуска:
    ```bash
-   java -jar target/StudentPerformanceAnalyzer.jar resources/example_data.xlsx output/
+   java -jar target/StudentPerformanceAnalyzer-d.jar resources/example_data.xlsx output/
    ```
 
 4. Результаты:
