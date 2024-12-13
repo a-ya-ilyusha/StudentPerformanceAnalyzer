@@ -1,7 +1,3 @@
-Here's a detailed README file for your project, **StudentPerformanceAnalyzer**. It follows best practices commonly used on GitHub, ensuring clarity and ease of use.
-
----
-
 # StudentPerformanceAnalyzer
 
 **StudentPerformanceAnalyzer** is a Java-based application designed to analyze student performance data from Excel files. The program computes statistical metrics, generates visualizations, and produces detailed reports to help educators and administrators understand and improve student outcomes.
@@ -110,5 +106,3 @@ While the application has been tested extensively, the following issues may occu
 - Large datasets might take longer to process or cause memory-related issues.
 
 Future versions aim to address these concerns with better error handling and optimized performance.
-
----
