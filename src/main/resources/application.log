@@ -1,0 +1,23 @@
+2024-12-13 10:30:09 [main] INFO  com.example.Main - Используется файл: D:/Study/input.xlsx
+2024-12-13 10:30:09 [main] INFO  com.example.FileProcessor - Начало обработки файла: D:/Study/input.xlsx
+2024-12-13 10:30:10 [main] INFO  com.example.FileProcessor - Файл успешно открыт: D:/Study/input.xlsx
+2024-12-13 10:30:10 [main] INFO  com.example.FileProcessor - Обнаружено 28 строк (включая заголовки)
+2024-12-13 10:30:10 [main] INFO  com.example.FileProcessor - Обработка файла завершена. Обработано 27 студентов.
+2024-12-13 10:30:10 [main] INFO  com.example.DataAnalyzer - Начало анализа данных группы. Количество студентов: 27
+2024-12-13 10:30:10 [main] INFO  com.example.DataAnalyzer - Анализ завершён. Итоги:
+2024-12-13 10:30:10 [main] INFO  com.example.DataAnalyzer - Отличников: 7
+2024-12-13 10:30:10 [main] INFO  com.example.DataAnalyzer - Хорошистов: 9
+2024-12-13 10:30:10 [main] INFO  com.example.DataAnalyzer - Троечников: 5
+2024-12-13 10:30:10 [main] INFO  com.example.DataAnalyzer - Не допущено: 6
+2024-12-13 10:30:10 [main] INFO  com.example.DataAnalyzer - Средний балл группы: 3.6296296296296298
+2024-12-13 10:30:10 [main] INFO  com.example.DataAnalyzer - Максимальная оценка: 5
+2024-12-13 10:30:10 [main] INFO  com.example.ReportGenerator - Начало генерации отчета. Путь к файлу: output.xlsx
+2024-12-13 10:30:10 [main] INFO  com.example.ReportGenerator - Заполнение колонки для категории 'Отличники'. Количество студентов: 7
+2024-12-13 10:30:10 [main] INFO  com.example.ReportGenerator - Заполнение колонки для категории 'Хорошисты'. Количество студентов: 9
+2024-12-13 10:30:10 [main] INFO  com.example.ReportGenerator - Заполнение колонки для категории 'Троечники'. Количество студентов: 5
+2024-12-13 10:30:10 [main] INFO  com.example.ReportGenerator - Заполнение колонки для категории 'Не допущены'. Количество студентов: 6
+2024-12-13 10:30:10 [main] INFO  com.example.ReportGenerator - Отчет успешно записан в файл: output.xlsx
+2024-12-13 10:30:10 [main] INFO  com.example.ChartGenerator - Начало генерации графика. Путь к сохранению: chart.png
+2024-12-13 10:30:11 [main] INFO  com.example.ChartGenerator - График успешно создан.
+2024-12-13 10:30:11 [main] INFO  com.example.ChartGenerator - График успешно сохранен в файл: chart.png
+2024-12-13 10:30:11 [main] INFO  com.example.Main - Программа успешно завершила выполнение.
