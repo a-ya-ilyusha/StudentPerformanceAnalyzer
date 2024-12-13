@@ -40,7 +40,7 @@ Here's a detailed README file for your project, **StudentPerformanceAnalyzer**. 
 ### Prerequisites
 
 To run **StudentPerformanceAnalyzer**, you need the following installed on your system:
-- Java Development Kit (JDK) 11 or higher
+- Java Development Kit (JDK) 17 or higher
 - Apache Maven (for dependency management)
 - Git (optional, for cloning the repository)
 
@@ -54,7 +54,7 @@ To run **StudentPerformanceAnalyzer**, you need the following installed on your 
 
 2. Build the project using Maven:
    ```bash
-   mvn clean install
+   gradle clean build
    ```
 
 3. Ensure all dependencies are resolved successfully.
@@ -75,7 +75,7 @@ An example file, `example_data.xlsx`, is provided in the repository under the `r
 
 1. Run the application from the command line:
    ```bash
-   java -jar target/StudentPerformanceAnalyzer.jar <path_to_input_file> <output_directory>
+   java -jar target/StudentPerformanceAnalyzer.jar <path_to_input_file>
    ```
 
 2. Parameters:
@@ -84,22 +84,22 @@ An example file, `example_data.xlsx`, is provided in the repository under the `r
 
 3. Example:
    ```bash
-   java -jar target/StudentPerformanceAnalyzer.jar resources/example_data.xlsx output/
+   java -jar target/StudentPerformanceAnalyzer.jar resources/input.xlsx
    ```
 
 4. Outputs:
-   - A statistical summary in `output/report.txt`.
-   - A bar chart visualization saved as `output/performance_chart.png`.
+   - A statistical summary in `output/output.txt`.
+   - A bar chart visualization saved as `output/chart.png`.
 
 ---
 
 ## Example Outputs
 
-After running the application with `example_data.xlsx`, you can expect:
+After running the application with `input.xlsx`, you can expect:
 1. A report detailing the count of excellent, good, satisfactory, and failing students.
 2. A bar chart showing the distribution of performance categories.
 
-Sample outputs are available in the `samples/` directory for reference.
+Sample outputs are available in the `resources/` directory for reference.
 
 ---
 
@@ -112,24 +112,3 @@ While the application has been tested extensively, the following issues may occu
 Future versions aim to address these concerns with better error handling and optimized performance.
 
 ---
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
-3. Commit your changes and push them to your forked repository.
-4. Submit a pull request for review.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-Feel free to customize this README as necessary. This structure ensures that your project is approachable for contributors and users alike. For more guidance on writing effective README files, check GitHub's [best practices](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
