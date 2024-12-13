@@ -42,7 +42,6 @@
 
 To run **StudentPerformanceAnalyzer**, you need the following installed on your system:
 - Java Development Kit (JDK) 17 or higher
-- Apache Maven (for dependency management)
 - Git (optional, for cloning the repository)
 
 ### Installation
