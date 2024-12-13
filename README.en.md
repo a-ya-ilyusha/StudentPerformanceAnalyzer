@@ -50,7 +50,7 @@ To run **StudentPerformanceAnalyzer**, you need the following installed on your 
 
 2. Build the project using Maven:
    ```bash
-   gradle clean build
+   ./gradlew clean build
    ```
 
 3. Ensure all dependencies are resolved successfully.
