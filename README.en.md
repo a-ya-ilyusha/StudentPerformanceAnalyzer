@@ -53,7 +53,7 @@ To run **StudentPerformanceAnalyzer**, you need the following installed on your 
    cd StudentPerformanceAnalyzer
    ```
 
-2. Build the project using Maven:
+2. Build the project using Gradle:
    ```bash
    ./gradlew clean build
    ```
