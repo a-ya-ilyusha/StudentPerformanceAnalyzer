@@ -5,8 +5,8 @@
 ---
 # Multilanguage README
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](./readme.en.md)
-[![ru](https://img.shields.io/badge/lang-ru-green.svg)](./readme.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.en.md)
+[![ru](https://img.shields.io/badge/lang-ru-green.svg)](./README.md)
 ---
 
 ## Table of Contents
