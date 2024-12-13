@@ -76,7 +76,6 @@ An example file, `example_data.xlsx`, is provided in the repository under the `r
 
 2. Parameters:
    - `<path_to_input_file>`: Path to the Excel file containing student data.
-   - `<output_directory>`: Directory where the generated report and chart will be saved.
 
 3. Example:
    ```bash
