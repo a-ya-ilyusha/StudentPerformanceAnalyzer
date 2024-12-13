@@ -84,7 +84,7 @@
 
 3. Пример запуска:
    ```bash
-   java -jar target/StudentPerformanceAnalyzer-d.jar resources/example_data.xlsx output/
+   java -jar target/StudentPerformanceAnalyzer-d.jar resources/input.xlsx
    ```
 
 4. Результаты:
