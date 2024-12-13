@@ -3,6 +3,11 @@
 **StudentPerformanceAnalyzer** is a Java-based application designed to analyze student performance data from Excel files. The program computes statistical metrics, generates visualizations, and produces detailed reports to help educators and administrators understand and improve student outcomes.
 
 ---
+# Multilanguage README
+
+[![en](https://img.shields.io/badge/lang-en-red.svg)](./readme.en.md)
+[![ru](https://img.shields.io/badge/lang-ru-green.svg)](./readme.md)
+---
 
 ## Table of Contents
 
