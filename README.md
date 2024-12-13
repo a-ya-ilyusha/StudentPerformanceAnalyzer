@@ -54,7 +54,7 @@
    cd StudentPerformanceAnalyzer
    ```
 
-2. Скомпилируйте проект с помощью Maven:
+2. Скомпилируйте проект с помощью Gradle:
    ```bash
    ./gradlew clean build
    ```
